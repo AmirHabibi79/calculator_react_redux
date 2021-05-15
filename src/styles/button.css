@@ -1,0 +1,41 @@
+.btn{
+    flex: 1;
+    height: 65px;
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+
+.active{
+    background: crimson !important;
+    color: white !important;
+}
+.color{
+    background: white;
+    color: black;
+}
+@media(hover:hover){
+    .btn:hover{
+        background: gray;
+        color: white;
+    }
+    .btn:active{
+        background: crimson;
+        color: white;
+    }
+}
+@media(hover:none){
+
+    .btn:active{
+        background: crimson;
+        color: white;
+    }
+}

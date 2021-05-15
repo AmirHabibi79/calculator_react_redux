@@ -1,0 +1,13 @@
+.views{
+    width: 100%;
+    background: crimson;
+    padding: 5px 5px;
+    min-height: 100px;
+    height: fit-content;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.result{
+    color: white;
+    font-size: 18px;
+}
